@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MAKAUT Grade Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎓 MAKAUT Grade Converter</h1>
+  </header>
+
+  <main>
+    <!-- GPA to Percentage -->
+    <section>
+      <h2>GPA ➜ Percentage</h2>
+      <input type="number" id="gpaInput" placeholder="Enter GPA (e.g. 8.5)">
+      <button onclick="convertGPAtoPercentage()">Convert</button>
+      <p id="gpaToPercResult"></p>
+    </section>
+
+    <!-- Percentage to GPA -->
+    <section>
+      <h2>Percentage ➜ GPA</h2>
+      <input type="number" id="percInput" placeholder="Enter Percentage (e.g. 76.5)">
+      <button onclick="convertPercentageToGPA()">Convert</button>
+      <p id="percToGPAResult"></p>
+    </section>
+
+    <!-- Marks to Percentage -->
+    <section>
+      <h2>Marks ➜ Percentage</h2>
+      <input type="number" id="obtainedMarks" placeholder="Obtained Marks">
+      <input type="number" id="totalMarks" placeholder="Total Marks">
+      <button onclick="convertMarksToPercentage()">Convert</button>
+      <p id="marksToPercResult"></p>
+    </section>
+
+    <!-- Subject-wise Percentage -->
+    <section>
+      <h2>Subject-wise Percentage</h2>
+      <textarea id="subjectMarks" rows="5" placeholder="Format: Subject1 80 100&#10;Subject2 75 100"></textarea>
+      <button onclick="calculateSubjectwisePercentage()">Calculate</button>
+      <p id="subjectwisePercResult"></p>
+    </section>
+
+    <!-- YGPA (Credit-Based) -->
+    <section>
+      <h2>YGPA (Credit-Based)</h2>
+      <textarea id="ygpaInput" rows="4" placeholder="Format: SGPA1 Credits1&#10;SGPA2 Credits2"></textarea>
+      <button onclick="calculateYGPA()">Calculate YGPA</button>
+      <p id="ygpaResult"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 MAKAUT Grade Converter</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
