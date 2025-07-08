@@ -1,40 +1,30 @@
-🎓 MAKAUT Grade Converter Website
+# 🎓 MAKAUT Grade Converter Website
 
-A web-based utility tool designed for students of MAKAUT (Maulana Abul Kalam Azad University of Technology) to easily convert and calculate:
+This is a lightweight and fast **GPA/Percentage/Marks Calculator** built specifically for students of **MAKAUT (Maulana Abul Kalam Azad University of Technology)**.
 
-GPA ↔ Percentage using official MAKAUT formula
+It supports conversion and calculation of:
 
-Marks ↔ Percentage
+- ✅ SGPA / CGPA to Percentage
+- ✅ Percentage to GPA
+- ✅ Marks to Percentage
+- ✅ Subject-wise % Calculator
+- ✅ Credit-based YGPA Calculation
 
-Subject-wise Percentage
+## 🚀 Features
 
-YGPA (Yearly GPA) using credit-based SGPA input
+- 🎯 GPA → Percentage 
+- 🎯 Percentage → GPA 
+- 🎯 YGPA (Yearly GPA) 
+- 🎯 Marks → % 
 
-🚀 Features
+## 🛠️ Tech Stack
 
-✅ GPA to Percentage ConversionFormula: (GPA × 10) − 7.5
-
-✅ Percentage to GPA ConversionFormula: GPA = (Percentage + 7.5) / 10
-
-✅ Marks to PercentageInput obtained and total marks → calculates %
-
-✅ Subject-wise CalculationEnter marks in subject-wise format → calculates total and %
-
-✅ YGPA Calculator (Credit-Based)Formula:
-
-YGPA = (SGPA1 × Credits1 + SGPA2 × Credits2) / (Credits1 + Credits2)
-
-Used for Odd + Even Semester combination (per academic year).
-
-📌 Technologies Used
-
-HTML5
-
-CSS3
-
-JavaScript
+- **HTML5**
+- **CSS3**
+- **JavaScript**
 
 👨‍💻 Author
 
-Bishtu Bhowmick
-Final Year CSE Student,Jis College of Engineering
+- Bishtu Bhowmick
+
+- Final Year CSE Student,Jis College of Engineering
